@@ -40,34 +40,112 @@
         </a>
 
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Features</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Enterprise</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Support</a>
-          <a class="py-2 link-body-emphasis text-decoration-none" href="#">Precios</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Caracteristicas</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Empresa</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Soporte</a>
+          <a class="py-2 link-body-emphasis text-decoration-none" href="indexPrecios.html">Precios</a>
         </nav>
       </div>
 
 
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <div class="pricing-header p-3 pb-md-4 mx-auto text-start">
-            <h1 class="display-4 fw-normal text-body-emphasis">Precios</h1>
-            <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers
-              with this Bootstrap example. It’s built with default Bootstrap components and utilities with little
-              customization.</p>
-            <button class="btn btn-bd-primary" onclick="cambiarMesAño()">Switch Anual</button>
+            <h1 class="display-3 fw-normal text-body-emphasis">Escucha sin restricciones</h1>
+            <h1 class="display-6 fw-normal text-body-emphasis">Prueba Premium 1 mes gratuitamente</h1>
+            <button class="btn btn-primary">Probar Gratis</button>
+            <a href="#compare"><button class="btn btn-outline-dark">Ver Planes</button></a>
+      
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
 
         </div>
       </div>
-
-
     </header>
 
     <main>
+      <div class="row">
+          <div class="col-12">
+            <h1 class="display-4 fw-normal text-body-emphasis
+            text-center">Experimenta la diferencia</h1>
+            <h2 class="display-9 fw-light text-body-emphasis
+            text-center">Puedes cancelar Premium cuando quieras</h2>
+            
+          </div>
+      </div>
+      <div class="table-first">
+        <table class="table text-center table-hover">
+          <thead>
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;">Free</th>
+              <th style="width: 22%;">Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Toda la música</th>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Música sin anuncios</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Subir musica</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Red social(Amigos)</th>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg>
+              </td>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg></td>
+
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Playlists Aleatoria</th>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check"/>
+              </svg></td>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"/>
+                </svg></td>
+
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Playlist Full</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check"/>
+              </svg></td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
@@ -122,7 +200,7 @@
         </div>
       </div>
 
-      <h2 class="display-6 text-center mb-4">Compare plans</h2>
+      <h2 class="display-6 text-center mb-4" id="compare">Compare plans</h2>
 
       <div class="table-responsive">
         <table class="table text-center">
