@@ -2,8 +2,6 @@
 <html lang="en" data-bs-theme="dark">
 
 <head>
-  <script src="../assets/js/color-modes.js"></script>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
@@ -50,16 +48,16 @@
 
 
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-7">
           <div class="pricing-header p-3 pb-md-4 mx-auto text-start">
             <h1 class="display-3 fw-normal text-body-emphasis">Escucha sin restricciones</h1>
             <h1 class="display-6 fw-normal text-body-emphasis">Prueba Premium 1 mes gratuitamente</h1>
-            <button class="btn btn-primary">Probar Gratis</button>
+            <a href="#gratis"><button class="btn btn-primary probar">Probar Gratis</button></a>
             <a href="#compare"><button class="btn btn-outline-dark">Ver Planes</button></a>
       
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-5">
 
         </div>
       </div>
@@ -102,9 +100,6 @@
                   <use xlink:href="#check" />
                 </svg></td>
             </tr>
-          </tbody>
-
-          <tbody>
             <tr>
               <th scope="row" class="text-start">Subir musica</th>
               <td></td>
@@ -146,137 +141,170 @@
         </table>
       </div>
 
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center row-cols-lg-4 justify-content-center ">
+        <div class="col" id="gratis">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
               <h4 class="my-0 fw-normal">Free</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title" data-valor="0">0€<small class="text-body-secondary fw-light">/mes</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                <li>1 Usuario</li>
+                <li>2 GB locales</li>
+                <li>Funcionalidades limitadas</li>
+                
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              <button type="button" class="w-100 btn btn-lg btn-secondary">Registrate gratis</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Pro</h4>
+          <div class="card mb-4 rounded-3 shadow-sm border-success">
+            <div class="card-header py-3 text-bg-success ">
+              <h4 class="my-0 fw-normal ">Artista</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">2,00€<small class="text-body-secondary fw-light">/mes</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
+                <li>1 Usuario</li>
+                <li>10 GB locales</li>
+                <li>Subir música</li>
+                
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-success">Sube tus canciones</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            <div class="card-header py-3 text-bg-primary border-primary">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
+            <div class="card-header py-3 text-bg-primary">
+              <h4 class="my-0 fw-normal">Familiar</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">3,50€<small class="text-body-secondary fw-light">/mes</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
+                <li>10 Usuarios</li>
+                <li>20GB locales</li>
+                <li>Playlist Completa</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Comparte con quien quieras</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-warning">
+            <div class="card-header py-3 text-bg-warning ">
+              <h4 class="my-0 fw-normal">Premium</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">5,00€<small class="text-body-secondary fw-light">/mes</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>1 Usuario</li>
+                <li>15 GB locales</li>
+                <li>Completo</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-warning">Experiencia completa</button>
             </div>
           </div>
         </div>
       </div>
 
-      <h2 class="display-6 text-center mb-4" id="compare">Compare plans</h2>
+      <h2 class="display-6 text-center mb-4" id="compare">Compara los planes</h2>
 
       <div class="table-responsive">
-        <table class="table text-center">
+        <table class="table text-center table-hover">
           <thead>
             <tr>
               <th style="width: 34%;"></th>
               <th style="width: 22%;">Free</th>
-              <th style="width: 22%;">Pro</th>
-              <th style="width: 22%;">Enterprise</th>
+              <th style="width: 22%;">Premium</th>
+              <th style="width: 22%;">Artista</th>
+              <th style="width: 22%;">Familiar</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row" class="text-start">Public</th>
+              <th scope="row" class="text-start">Toda la música</th>
               <td><svg class="bi" width="24" height="24">
                   <use xlink:href="#check" />
                 </svg></td>
               <td><svg class="bi" width="24" height="24">
                   <use xlink:href="#check" />
-                </svg></td>
-              <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start">Private</th>
+              </svg></td>
               <td></td>
               <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
-              <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
-            </tr>
-          </tbody>
+                <use xlink:href="#check" />
+            </svg></td>
 
-          <tbody>
-            <tr>
-              <th scope="row" class="text-start">Permissions</th>
-              <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
-              <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
-              <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
             </tr>
             <tr>
-              <th scope="row" class="text-start">Sharing</th>
+              <th scope="row" class="text-start">Música sin anuncios</th>
               <td></td>
               <td><svg class="bi" width="24" height="24">
                   <use xlink:href="#check" />
                 </svg></td>
-              <td><svg class="bi" width="24" height="24">
-                  <use xlink:href="#check" />
-                </svg></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
-              <th scope="row" class="text-start">Unlimited members</th>
+              <th scope="row" class="text-start">Subir musica</th>
               <td></td>
               <td><svg class="bi" width="24" height="24">
                   <use xlink:href="#check" />
                 </svg></td>
-              <td><svg class="bi" width="24" height="24">
+                <td><svg class="bi" width="24" height="24">
                   <use xlink:href="#check" />
                 </svg></td>
+                <td></td>
             </tr>
             <tr>
-              <th scope="row" class="text-start">Extra security</th>
-              <td></td>
-              <td></td>
+              <th scope="row" class="text-start">Red social(Amigos)</th>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check" />
+                </svg>
+              </td>
               <td><svg class="bi" width="24" height="24">
                   <use xlink:href="#check" />
                 </svg></td>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Playlists Aleatoria</th>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check"/>
+              </svg></td>
+              <td><svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"/>
+                </svg></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Playlist Full</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check"/>
+              </svg></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Multiusuario</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24">
+                <use xlink:href="#check" />
+              </svg></td>
             </tr>
           </tbody>
         </table>

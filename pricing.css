@@ -81,16 +81,17 @@ body {
 
 
 
-.btn-primary {
+.probar {
   border-radius: 2em;
   margin-right: 2em;
   background-color: rgb(2,0,36);
   border-color:rgb(67, 45, 104);
 }
-.btn-primary:hover{
+.probar:hover{
   background-color: rgb(67, 45, 104);
   border-color: rgba(255, 255, 255, 0.244);
 }
+
 
 
 .btn-outline-dark{
@@ -129,4 +130,9 @@ table, tr,td,tbody,thead, th{
 
 .table-first{
   margin-bottom: 10em;
+}
+
+.card{
+  max-width: 500px;
+  margin: auto;
 }
