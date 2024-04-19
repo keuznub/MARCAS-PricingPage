@@ -136,3 +136,22 @@ table, tr,td,tbody,thead, th{
   max-width: 500px;
   margin: auto;
 }
+
+.canciones img{
+  width: 100%;
+  
+}
+
+.canciones button{
+  width: 80%;
+}
+
+.canciones button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.cancion div{
+  max-width: 500px;
+}
+
