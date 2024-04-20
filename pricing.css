@@ -162,5 +162,14 @@ table, tr,td,tbody,thead, th{
 }
 
 .contenedorTitulo{
-  height: 8em;
+  height: 6em;
 }
+
+.botones{
+  margin-top: 2em;
+}
+
+.table-last{
+  margin-top: 10em;
+}
+
