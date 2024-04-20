@@ -139,7 +139,7 @@ table, tr,td,tbody,thead, th{
 
 .canciones img{
   width: 100%;
-  
+  transition: transform 0.3s ease;
 }
 
 .canciones button{
@@ -155,3 +155,12 @@ table, tr,td,tbody,thead, th{
   max-width: 500px;
 }
 
+@media (min-width: 768px) {
+  .titulo{
+    font-size: 26px !important;
+  }
+}
+
+.contenedorTitulo{
+  height: 8em;
+}
